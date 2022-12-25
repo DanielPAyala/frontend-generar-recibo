@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  endpoint: 'http://localhost:40919/',
+  LOGOS_URL: 'http://localhost:40919/Logos/'
 };
 
 /*
